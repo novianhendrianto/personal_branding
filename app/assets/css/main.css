@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Sora:wght@500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-soft: #f6f8fb;
+  --brand-1: #0b5ed7;
+  --brand-2: #ff9f1a;
+  --brand-3: #72d62d;
+  --ink: #0f172a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: radial-gradient(circle at 0% 0%, #dae6ff 0%, transparent 45%),
+    radial-gradient(circle at 100% 0%, #ffe8cc 0%, transparent 40%),
+    var(--bg-soft);
+  color: var(--ink);
+}
+
+h1,
+h2,
+h3,
+.brand-heading {
+  font-family: 'Sora', sans-serif;
+}
+
+.section-wrap {
+  @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+}
+
+.glass-card {
+  @apply rounded-2xl border border-white/70 bg-white/85 shadow-[0_20px_45px_rgba(15,23,42,0.08)] backdrop-blur;
+}
+
+.reveal-up {
+  animation: revealUp 0.7s ease-out both;
+}
+
+.hero-shell {
+  @apply overflow-hidden rounded-[28px] border border-slate-200 bg-white shadow-[0_25px_60px_rgba(15,23,42,0.14)];
+}
+
+.hero-left {
+  background: linear-gradient(165deg, #0766ec 0%, #0b56bf 100%);
+}
+
+.hero-right {
+  background: linear-gradient(165deg, #ffd18e 0%, #ff9f1a 100%);
+}
+
+.floating-tag {
+  @apply absolute flex items-center gap-3 rounded-full bg-white px-4 py-2 text-sm font-bold text-slate-900 shadow-[0_12px_28px_rgba(15,23,42,0.22)];
+}
+
+@keyframes revealUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.floating-wa {
+  @apply fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-sm font-extrabold text-white shadow-lg transition hover:scale-105 hover:shadow-xl;
+}
