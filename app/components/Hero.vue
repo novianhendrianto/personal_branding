@@ -3,13 +3,13 @@
     <div class="hero-shell reveal-up grid lg:grid-cols-2">
       <div class="hero-left px-7 py-12 text-white sm:px-10 sm:py-16 lg:px-14">
         <p class="inline-flex rounded-full bg-white/15 px-4 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-white/90">
-          Scale Up Sistem Bisnis Anda
+          IT Solution Architect · 15+ Tahun Pengalaman
         </p>
         <h1 class="brand-heading mt-5 max-w-xl text-3xl font-extrabold leading-tight sm:text-5xl">
-          Solusi Sistem & Automasi untuk RT/RW Net dan UMKM
+          Bangun Fondasi Teknologi Bisnis yang Kuat dan Scalable
         </h1>
         <p class="mt-5 max-w-xl text-sm leading-relaxed text-white/90 sm:text-base">
-          Membangun sistem scalable dari billing ISP hingga POS, CRM, dan integrasi bisnis dengan pendekatan arsitektur yang kuat, rapi, dan siap bertumbuh.
+          Dari infrastruktur jaringan hingga aplikasi bisnis — saya merancang sistem yang efisien, terintegrasi, dan siap mendukung pertumbuhan bisnis jangka panjang Anda.
         </p>
 
         <div class="mt-8 flex flex-wrap gap-3">

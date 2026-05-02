@@ -14,6 +14,7 @@ useSeoMeta({
   <main>
     <Navbar />
     <Hero />
+    <ServiceSlider />
     <Partners />
     <About />
     <Services />
