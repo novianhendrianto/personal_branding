@@ -86,6 +86,28 @@
           <li>Cocok untuk ISP lokal, perkantoran, dan kawasan industri</li>
         </ul>
       </article>
+
+      <article class="glass-card border-l-4 border-l-rose-500 p-6">
+        <span class="inline-flex rounded-full bg-rose-50 px-3 py-1 text-xs font-semibold text-rose-700">Business Application</span>
+        <h3 class="brand-heading mt-3 text-lg font-bold">HRM Application</h3>
+        <ul class="mt-3 space-y-2 text-sm text-slate-600">
+          <li>Manajemen data karyawan, struktur organisasi, dan role akses</li>
+          <li>Absensi, cuti, payroll workflow, dan evaluasi performa</li>
+          <li>Integrasi notifikasi WhatsApp/Email untuk approval lebih cepat</li>
+          <li>Cocok untuk UMKM, perusahaan jasa, dan bisnis multi-cabang</li>
+        </ul>
+      </article>
+
+      <article class="glass-card border-l-4 border-l-indigo-600 p-6">
+        <span class="inline-flex rounded-full bg-indigo-50 px-3 py-1 text-xs font-semibold text-indigo-700">Mobile Development</span>
+        <h3 class="brand-heading mt-3 text-lg font-bold">Mobile App Application</h3>
+        <ul class="mt-3 space-y-2 text-sm text-slate-600">
+          <li>Aplikasi Android/iOS untuk operasional dan customer self-service</li>
+          <li>Sinkronisasi data real-time dengan backend dan dashboard web</li>
+          <li>Fitur push notification, tracking aktivitas, dan offline mode</li>
+          <li>Cocok untuk field team, sales, dan layanan pelanggan bergerak</li>
+        </ul>
+      </article>
     </div>
   </section>
 </template>

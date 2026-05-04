@@ -43,6 +43,14 @@
         <h3 class="brand-heading text-base font-bold">Fiber Optic Network Tool</h3>
         <p class="mt-2 text-sm text-slate-600">Tools monitoring jaringan FO, manajemen port, dan dokumentasi topologi untuk ISP dan pengelola gedung.</p>
       </article>
+      <article class="glass-card border-t-2 border-t-rose-500 p-5">
+        <h3 class="brand-heading text-base font-bold">HRM Application</h3>
+        <p class="mt-2 text-sm text-slate-600">Sistem SDM terintegrasi untuk absensi, cuti, payroll workflow, KPI, dan approval digital lintas tim.</p>
+      </article>
+      <article class="glass-card border-t-2 border-t-indigo-600 p-5">
+        <h3 class="brand-heading text-base font-bold">Mobile App Application</h3>
+        <p class="mt-2 text-sm text-slate-600">Aplikasi mobile Android/iOS untuk operasional lapangan, customer app, notifikasi real-time, dan sinkronisasi data backend.</p>
+      </article>
     </div>
   </section>
 </template>

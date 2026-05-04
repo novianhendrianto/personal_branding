@@ -4,19 +4,21 @@
       <div class="sm:col-span-3">
         <p class="text-xs font-semibold uppercase tracking-[0.2em] text-teal-700">Tentang Saya</p>
         <h2 class="brand-heading mt-3 text-2xl font-extrabold sm:text-4xl">
-          Kombinasi Software Engineering, Infrastruktur, dan Business System
+          Spesialis Solusi Digital untuk Operasional dan Pertumbuhan Bisnis
         </h2>
         <p class="mt-4 text-slate-600">
-          Saya Novian Hendrianto, profesional IT dengan pengalaman lintas domain: backend development, network infrastructure, integrasi sistem, hingga solusi operasional bisnis.
-          Berbekal pengalaman sebagai IT Manager, kini saya fokus sebagai IT Solution Architect untuk membantu RT/RW Net dan UMKM membangun sistem yang reliable, otomatis, dan siap scale.
+          Saya Novian Hendrianto, IT Solution Architect dengan pengalaman 15+ tahun membangun sistem yang langsung berdampak ke performa bisnis.
+          Fokus saya adalah merancang solusi yang efisien, terintegrasi, dan mudah digunakan tim agar operasional lebih cepat, service lebih rapi, dan bisnis siap scale.
         </p>
       </div>
       <div class="sm:col-span-2">
         <ul class="space-y-3 text-sm text-slate-700">
-          <li class="rounded-xl bg-slate-50 p-4">Backend: .NET, Node.js, REST API</li>
-          <li class="rounded-xl bg-slate-50 p-4">Network: Mikrotik, VLAN, PPPoE, VPN WireGuard</li>
-          <li class="rounded-xl bg-slate-50 p-4">VoIP: Asterisk, SIP, call center architecture</li>
-          <li class="rounded-xl bg-slate-50 p-4">System Integration: API, middleware, database sync</li>
+          <li class="rounded-xl bg-slate-50 p-4">HRM Application: absensi, cuti, payroll workflow, KPI</li>
+          <li class="rounded-xl bg-slate-50 p-4">Mobile App Application: Android/iOS untuk operasional & customer app</li>
+          <li class="rounded-xl bg-slate-50 p-4">ISP Billing SaaS: manajemen pelanggan, invoice, suspend otomatis</li>
+          <li class="rounded-xl bg-slate-50 p-4">POS & CRM UMKM: transaksi, stok, database pelanggan, follow-up</li>
+          <li class="rounded-xl bg-slate-50 p-4">Call Center System: ticketing, monitoring agent, SLA tracking</li>
+          <li class="rounded-xl bg-slate-50 p-4">Web Company Profile & Landing Page: website profesional high-conversion</li>
         </ul>
       </div>
     </div>

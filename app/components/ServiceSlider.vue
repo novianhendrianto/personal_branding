@@ -5,7 +5,9 @@ const fallbackImages = [
   'https://picsum.photos/seed/callcenter/900/600',
   'https://picsum.photos/seed/integration/900/600',
   'https://picsum.photos/seed/companyweb/900/600',
-  'https://picsum.photos/seed/cctvfiber/900/600'
+  'https://picsum.photos/seed/cctvfiber/900/600',
+  'https://picsum.photos/seed/hrm/900/600',
+  'https://picsum.photos/seed/mobileapp/900/600'
 ]
 
 const slides = [
@@ -38,6 +40,16 @@ const slides = [
     title: 'CCTV & Fiber Optic',
     subtitle: 'Instalasi fisik dan desain infrastruktur',
     image: 'https://images.unsplash.com/photo-1581092921461-39b9d08a9b2a?auto=format&fit=crop&w=900&q=80'
+  },
+  {
+    title: 'HRM Application',
+    subtitle: 'Absensi, Cuti, Payroll Workflow',
+    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80'
+  },
+  {
+    title: 'Mobile App Application',
+    subtitle: 'Android, iOS, Real-time Sync',
+    image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=900&q=80'
   }
 ]
 
