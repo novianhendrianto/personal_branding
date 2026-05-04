@@ -53,8 +53,8 @@
               <p class="text-xs font-medium text-slate-600">Tahun</p>
             </div>
             <div class="rounded-2xl bg-white/90 p-3 text-center">
-              <p class="brand-heading text-xl font-extrabold text-slate-900">Eks</p>
-              <p class="text-xs font-medium text-slate-600">IT Manager</p>
+              <p class="brand-heading text-xl font-extrabold text-[#0b5ed7]">Solution</p>
+              <p class="text-xs font-medium text-slate-600">Architect</p>
             </div>
             <div class="rounded-2xl bg-white/90 p-3 text-center">
               <p class="brand-heading text-xl font-extrabold text-slate-900">Enterprise</p>

@@ -27,6 +27,10 @@
         <h3 class="brand-heading text-base font-bold">Inventory Management</h3>
         <p class="mt-2 text-sm text-slate-600">Kontrol stok lintas gudang, reorder alert, dan integrasi pembelian.</p>
       </article>
+      <article class="glass-card border-t-2 border-t-cyan-600 p-5">
+        <h3 class="brand-heading text-base font-bold">Managed Infrastructure Service</h3>
+        <p class="mt-2 text-sm text-slate-600">Paket setup dan maintenance FO/LAN, Mikrotik, dan server dengan monitoring berkala dan SLA support.</p>
+      </article>
       <article class="glass-card border-t-2 border-t-[#0b5ed7] p-5">
         <h3 class="brand-heading text-base font-bold">Web Company Profile</h3>
         <p class="mt-2 text-sm text-slate-600">Template web profesional untuk perusahaan IT, jasa, dan distributor. Fast, SEO-ready, custom branding.</p>
@@ -42,10 +46,6 @@
       <article class="glass-card border-t-2 border-t-emerald-600 p-5">
         <h3 class="brand-heading text-base font-bold">Fiber Optic Network Tool</h3>
         <p class="mt-2 text-sm text-slate-600">Tools monitoring jaringan FO, manajemen port, dan dokumentasi topologi untuk ISP dan pengelola gedung.</p>
-      </article>
-      <article class="glass-card border-t-2 border-t-rose-500 p-5">
-        <h3 class="brand-heading text-base font-bold">HRM Application</h3>
-        <p class="mt-2 text-sm text-slate-600">Sistem SDM terintegrasi untuk absensi, cuti, payroll workflow, KPI, dan approval digital lintas tim.</p>
       </article>
       <article class="glass-card border-t-2 border-t-indigo-600 p-5">
         <h3 class="brand-heading text-base font-bold">Mobile App Application</h3>

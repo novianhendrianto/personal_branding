@@ -5,10 +5,11 @@
 @tailwind utilities;
 
 :root {
-  --bg-soft: #f6f8fb;
-  --brand-1: #0b5ed7;
-  --brand-2: #ff9f1a;
-  --brand-3: #72d62d;
+  --bg-soft: #eef3fb;
+  --brand-1: #1464dc;
+  --brand-2: #ff9f1c;
+  --brand-3: #53c66d;
+  --accent-teal: #0ea5a4;
   --ink: #0f172a;
 }
 
@@ -18,9 +19,11 @@ html {
 
 body {
   font-family: 'DM Sans', sans-serif;
-  background: radial-gradient(circle at 0% 0%, #dae6ff 0%, transparent 45%),
-    radial-gradient(circle at 100% 0%, #ffe8cc 0%, transparent 40%),
-    var(--bg-soft);
+  background:
+    radial-gradient(circle at 8% 0%, rgba(20, 100, 220, 0.2) 0%, transparent 38%),
+    radial-gradient(circle at 94% 4%, rgba(255, 159, 28, 0.22) 0%, transparent 35%),
+    radial-gradient(circle at 50% 100%, rgba(14, 165, 164, 0.14) 0%, transparent 42%),
+    linear-gradient(180deg, #f8fbff 0%, #eef3fb 52%, #f6f8fc 100%);
   color: var(--ink);
 }
 
@@ -36,7 +39,7 @@ h3,
 }
 
 .glass-card {
-  @apply rounded-2xl border border-white/70 bg-white/85 shadow-[0_20px_45px_rgba(15,23,42,0.08)] backdrop-blur;
+  @apply rounded-2xl border border-white/75 bg-white/80 shadow-[0_16px_36px_rgba(15,23,42,0.09)] backdrop-blur-md;
 }
 
 .reveal-up {
@@ -44,19 +47,23 @@ h3,
 }
 
 .hero-shell {
-  @apply overflow-hidden rounded-[28px] border border-slate-200 bg-white shadow-[0_25px_60px_rgba(15,23,42,0.14)];
+  @apply overflow-hidden rounded-[28px] border border-white/70 bg-white/75 shadow-[0_28px_64px_rgba(15,23,42,0.14)] backdrop-blur;
 }
 
 .hero-left {
-  background: linear-gradient(165deg, #0766ec 0%, #0b56bf 100%);
+  background:
+    radial-gradient(circle at 8% 10%, rgba(255, 255, 255, 0.24) 0%, transparent 42%),
+    linear-gradient(160deg, #1768df 0%, #0f4fb5 58%, #0a3f99 100%);
 }
 
 .hero-right {
-  background: linear-gradient(165deg, #ffd18e 0%, #ff9f1a 100%);
+  background:
+    radial-gradient(circle at 100% 0%, rgba(255, 255, 255, 0.34) 0%, transparent 45%),
+    linear-gradient(160deg, #ffd99f 0%, #ffb347 45%, #f08c16 100%);
 }
 
 .floating-tag {
-  @apply absolute flex items-center gap-3 rounded-full bg-white px-4 py-2 text-sm font-bold text-slate-900 shadow-[0_12px_28px_rgba(15,23,42,0.22)];
+  @apply absolute flex items-center gap-3 rounded-full border border-white/70 bg-white/90 px-4 py-2 text-sm font-bold text-slate-900 shadow-[0_14px_28px_rgba(15,23,42,0.2)] backdrop-blur;
 }
 
 @keyframes revealUp {

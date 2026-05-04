@@ -13,8 +13,8 @@
       </div>
       <div class="sm:col-span-2">
         <ul class="space-y-3 text-sm text-slate-700">
-          <li class="rounded-xl bg-slate-50 p-4">HRM Application: absensi, cuti, payroll workflow, KPI</li>
           <li class="rounded-xl bg-slate-50 p-4">Mobile App Application: Android/iOS untuk operasional & customer app</li>
+          <li class="rounded-xl bg-slate-50 p-4">HRM Application: absensi, cuti, payroll workflow, KPI</li>
           <li class="rounded-xl bg-slate-50 p-4">ISP Billing SaaS: manajemen pelanggan, invoice, suspend otomatis</li>
           <li class="rounded-xl bg-slate-50 p-4">POS & CRM UMKM: transaksi, stok, database pelanggan, follow-up</li>
           <li class="rounded-xl bg-slate-50 p-4">Call Center System: ticketing, monitoring agent, SLA tracking</li>

@@ -2,11 +2,12 @@
 const fallbackImages = [
   'https://picsum.photos/seed/netops/900/600',
   'https://picsum.photos/seed/umkm/900/600',
+  'https://picsum.photos/seed/crmwaba/900/600',
+  'https://picsum.photos/seed/infrasetup/900/600',
   'https://picsum.photos/seed/callcenter/900/600',
   'https://picsum.photos/seed/integration/900/600',
   'https://picsum.photos/seed/companyweb/900/600',
   'https://picsum.photos/seed/cctvfiber/900/600',
-  'https://picsum.photos/seed/hrm/900/600',
   'https://picsum.photos/seed/mobileapp/900/600'
 ]
 
@@ -20,6 +21,16 @@ const slides = [
     title: 'UMKM Digital System',
     subtitle: 'POS, CRM, Inventory',
     image: 'https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=900&q=80'
+  },
+  {
+    title: 'CRM + WABA Automation',
+    subtitle: 'WhatsApp Business API, Broadcast, Pipeline Sales',
+    image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=900&q=80'
+  },
+  {
+    title: 'Infrastructure Setup & Maintenance',
+    subtitle: 'FO, LAN, Mikrotik, Server Management',
+    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80'
   },
   {
     title: 'Call Center & VoIP',
@@ -40,11 +51,6 @@ const slides = [
     title: 'CCTV & Fiber Optic',
     subtitle: 'Instalasi fisik dan desain infrastruktur',
     image: 'https://images.unsplash.com/photo-1581092921461-39b9d08a9b2a?auto=format&fit=crop&w=900&q=80'
-  },
-  {
-    title: 'HRM Application',
-    subtitle: 'Absensi, Cuti, Payroll Workflow',
-    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80'
   },
   {
     title: 'Mobile App Application',
@@ -69,6 +75,15 @@ const onImageError = (event: Event, index: number) => {
 <template>
   <section id="showcase" class="section-wrap py-10 sm:py-14">
 
+    <div class="mb-6 flex flex-col gap-3 sm:mb-7 sm:gap-4">
+      <p class="text-xs font-semibold uppercase tracking-[0.2em] text-teal-700">Trending Solutions 2026</p>
+      <h2 class="brand-heading text-2xl font-extrabold text-slate-900 sm:text-4xl">
+        Solusi Paling Dicari: CRM WABA, Infrastruktur, dan Mobile App
+      </h2>
+      <p class="max-w-3xl text-sm text-slate-600 sm:text-base">
+        Fokus pada solusi dengan demand tinggi yang berdampak langsung ke penjualan, operasional, stabilitas jaringan, dan layanan pelanggan.
+      </p>
+    </div>
 
     <div class="slider-shell overflow-hidden rounded-3xl border border-slate-200 bg-white/70 p-4 shadow-[0_20px_40px_rgba(15,23,42,0.09)] sm:p-5">
       <div class="slider-track flex gap-4">

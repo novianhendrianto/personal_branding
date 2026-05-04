@@ -43,6 +43,17 @@
         </ul>
       </article>
 
+      <article class="glass-card border-l-4 border-l-cyan-600 p-6">
+        <span class="inline-flex rounded-full bg-cyan-50 px-3 py-1 text-xs font-semibold text-cyan-700">Network & Infrastructure</span>
+        <h3 class="brand-heading mt-3 text-lg font-bold">Setup & Maintenance Infrastruktur</h3>
+        <ul class="mt-3 space-y-2 text-sm text-slate-600">
+          <li>Desain dan pembangunan jaringan baru berbasis FO dan LAN</li>
+          <li>Setup Mikrotik untuk routing, VLAN, QoS, dan keamanan jaringan</li>
+          <li>Deployment server untuk aplikasi internal, billing, dan monitoring</li>
+          <li>Maintenance berkala, troubleshooting cepat, dan optimasi performa</li>
+        </ul>
+      </article>
+
       <article class="glass-card border-l-4 border-l-[#0b5ed7] p-6">
         <span class="inline-flex rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-[#0b5ed7]">Web Development</span>
         <h3 class="brand-heading mt-3 text-lg font-bold">Web Company Profile</h3>
@@ -84,17 +95,6 @@
           <li>Splicing, terminasi, dan pengujian kualitas sinyal</li>
           <li>Desain topologi jaringan FO yang efisien dan scalable</li>
           <li>Cocok untuk ISP lokal, perkantoran, dan kawasan industri</li>
-        </ul>
-      </article>
-
-      <article class="glass-card border-l-4 border-l-rose-500 p-6">
-        <span class="inline-flex rounded-full bg-rose-50 px-3 py-1 text-xs font-semibold text-rose-700">Business Application</span>
-        <h3 class="brand-heading mt-3 text-lg font-bold">HRM Application</h3>
-        <ul class="mt-3 space-y-2 text-sm text-slate-600">
-          <li>Manajemen data karyawan, struktur organisasi, dan role akses</li>
-          <li>Absensi, cuti, payroll workflow, dan evaluasi performa</li>
-          <li>Integrasi notifikasi WhatsApp/Email untuk approval lebih cepat</li>
-          <li>Cocok untuk UMKM, perusahaan jasa, dan bisnis multi-cabang</li>
         </ul>
       </article>
 
