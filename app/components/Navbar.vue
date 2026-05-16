@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const config = useRuntimeConfig()
+</script>
+
 <template>
   <header class="sticky top-0 z-40 border-b border-slate-700/60 bg-[#111827] backdrop-blur-md">
     <nav class="section-wrap flex h-16 items-center justify-between">
@@ -11,6 +15,7 @@
         <li><a href="#integrasi" class="transition hover:text-white">Integrasi</a></li>
         <li><a href="#produk" class="transition hover:text-white">Produk</a></li>
         <li><a href="#portofolio" class="transition hover:text-white">Portofolio</a></li>
+        <li v-if="config.public.showBlog"><a :href="config.public.blogUrl" target="_blank" rel="noopener noreferrer" class="transition hover:text-white">Blog</a></li>
       </ul>
 
       <a

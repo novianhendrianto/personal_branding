@@ -1,11 +1,11 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Jasa Pembuatan Sistem RT/RW Net & Aplikasi UMKM',
+  title: 'Bangun Fondasi Teknologi Bisnis yang Kuat dan Scalable | Novian Hendrianto',
   description:
-    'Solusi sistem billing ISP, POS, CRM, dan integrasi bisnis untuk UMKM dan RT/RW Net',
+    'IT Solution Architect dengan 15+ tahun pengalaman merancang sistem digital untuk infrastruktur, operasional, dan pertumbuhan bisnis RT/RW Net dan UMKM.',
   ogTitle: 'Novian Hendrianto - IT Solution Architect',
   ogDescription:
-    'Konsultan sistem dan automasi untuk RT/RW Net, ISP kecil, dan UMKM dengan pendekatan scalable.',
+    'Solusi komprehensif: infrastruktur FO/LAN, CRM WABA, sistem billing, POS, mobile app, dan integrasi bisnis dengan arsitektur scalable.',
   ogType: 'website'
 })
 </script>

@@ -4,6 +4,12 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
+  runtimeConfig: {
+    public: {
+      blogUrl: 'http://localhost:3020/',
+      showBlog: false
+    }
+  },
   app: {
     head: {
       link: [
